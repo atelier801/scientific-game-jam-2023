@@ -13,6 +13,7 @@ namespace Students.Data
         [Space]
         public GradesData notes;
         [Space] 
+        [TextArea]
         public string appreciations;
     }
 }

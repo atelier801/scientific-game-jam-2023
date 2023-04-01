@@ -7,6 +7,7 @@ namespace Interactions
 {
     public class DragNDrop : MonoBehaviour
     {
+        public Transform target;
         
         public bool isDragged { get; private set; }
         
@@ -31,7 +32,7 @@ namespace Interactions
         private void OnMouseDrag()
         {
             Vector3 mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-            Vector3 pos = transform.position;
+            Vector3 pos = target.position;
             mousePos.z = pos.z;
 
             if (!isDragged)
@@ -41,7 +42,7 @@ namespace Interactions
                 _dragOffset = mousePos - pos;
             }
 
-            transform.position = mousePos + _dragOffset;
+            target.position = mousePos - _dragOffset;
         }
 
         private void OnMouseDragRelease()

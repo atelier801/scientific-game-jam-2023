@@ -8,12 +8,12 @@ namespace Students
     {
         public StudentData data;
 
-        private void OnMouseEnter()
+        private void Update()
         {
             
         }
 
-        private void OnMouseDrag()
+        private void MoveAround()
         {
             
         }

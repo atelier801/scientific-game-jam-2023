@@ -7,12 +7,15 @@ namespace Students.Data
     public struct GradesData
     {
         [SerializeField] [Range(0, 20)] private float _sciences;
+        [SerializeField] [Range(0, 20)] private float _maths;
         [SerializeField] [Range(0, 20)] private float _langues;
         [SerializeField] [Range(0, 20)] private float _français;
         [SerializeField] [Range(0, 20)] private float _histGeo;
         [SerializeField] [Range(0, 20)] private float _sport;
 
         public float sciences => _sciences;
+        
+        public float maths => _maths;
 
         public float langues => _langues;
 
