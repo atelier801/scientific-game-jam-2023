@@ -1,7 +1,7 @@
 ﻿using System;
 using UnityEngine;
 
-namespace Students
+namespace Students.Environment
 {
     public class ClassRoom : MonoBehaviour
     {
