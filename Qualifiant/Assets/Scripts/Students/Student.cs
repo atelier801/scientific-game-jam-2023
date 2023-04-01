@@ -1,18 +1,21 @@
+﻿using System;
+using Students.Data;
 using UnityEngine;
 
 namespace Students
 {
-    [CreateAssetMenu(fileName = "NewStudent", menuName = "Student")]
-    public class Student : ScriptableObject
+    public class Student : MonoBehaviour
     {
-        public Sprite sprite;
-        [Space]
-        public string nom;
-        public string origineSo;
-        public string aspiration;
-        [Space]
-        public Grades notes;
-        [Space] 
-        public string appreciations;
+        public StudentData data;
+
+        private void OnMouseEnter()
+        {
+            
+        }
+
+        private void OnMouseDrag()
+        {
+            
+        }
     }
 }
