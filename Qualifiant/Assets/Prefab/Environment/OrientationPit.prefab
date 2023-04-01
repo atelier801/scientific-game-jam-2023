@@ -66,7 +66,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   filter:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 183
   _onTriggerEnter:
     m_PersistentCalls:
       m_Calls:

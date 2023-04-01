@@ -178,7 +178,7 @@ GameObject:
   - component: {fileID: 7330246897566909758}
   - component: {fileID: 7299354278872682520}
   - component: {fileID: 8077740581372454029}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Student
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -355,7 +355,7 @@ GameObject:
   - component: {fileID: 5097667053967282567}
   - component: {fileID: 3582477086193232783}
   - component: {fileID: 3901416323898921876}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Interactions
   m_TagString: Untagged
   m_Icon: {fileID: 0}

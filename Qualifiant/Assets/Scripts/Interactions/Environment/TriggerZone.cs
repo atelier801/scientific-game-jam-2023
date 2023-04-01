@@ -18,7 +18,6 @@ namespace Interactions.Environment
 
         private void OnTriggerEnter2D(Collider2D col)
         {
-            print(col.name);
             if ((filter.value & (1 << col.gameObject.layer)) != 0)
             {
                 _onTriggerEnter.Invoke(col);
