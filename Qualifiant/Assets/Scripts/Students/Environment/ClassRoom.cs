@@ -8,12 +8,6 @@ namespace Students.Environment
     {
         private static ClassRoom s_instance;
 
-        private void OnDrawGizmos()
-        {
-            Gizmos.color = Color.green;
-            Gizmos.DrawWireCube(transform.position, (Vector3)boundaries + Vector3.forward);
-        }
-
         public static ClassRoom Singleton
         {
             get
@@ -26,6 +20,12 @@ namespace Students.Environment
 
         public Vector2 boundaries = new (16,9);
 
+        private void OnDrawGizmos()
+        {
+            Gizmos.color = Color.green;
+            Gizmos.DrawWireCube(transform.position, (Vector3)boundaries + Vector3.forward);
+        }
+        
         public bool isInsideBoundaries(Vector2 point)
         {
             Vector2 pos = transform.position;
