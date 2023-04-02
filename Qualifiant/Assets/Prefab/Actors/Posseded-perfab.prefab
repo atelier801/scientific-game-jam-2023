@@ -110,6 +110,10 @@ PrefabInstance:
       value: Texture
       objectReference: {fileID: 0}
     - target: {fileID: 4747160282345624016, guid: cc0008d212be4a74cb68ce6edb6ccfd0, type: 3}
+      propertyPath: data
+      value: 
+      objectReference: {fileID: 11400000, guid: 548ea8c96e66c4844926d02d6c2f6956, type: 2}
+    - target: {fileID: 4747160282345624016, guid: cc0008d212be4a74cb68ce6edb6ccfd0, type: 3}
       propertyPath: bulletin
       value: 
       objectReference: {fileID: 6928425155241055244, guid: be12ef7cd01802f47b2075cece86931c, type: 3}

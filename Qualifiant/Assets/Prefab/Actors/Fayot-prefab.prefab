@@ -185,6 +185,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8077740581372454029, guid: e7dc82c47f3e8f84f97cf714dcca8b71, type: 3}
+      propertyPath: data
+      value: 
+      objectReference: {fileID: 11400000, guid: 9cb5feda075116342b85b37f715e5167, type: 2}
+    - target: {fileID: 8077740581372454029, guid: e7dc82c47f3e8f84f97cf714dcca8b71, type: 3}
       propertyPath: bulletin
       value: 
       objectReference: {fileID: 6928425155241055244, guid: a7696607d1b9f884f81d885a06fd865f, type: 3}
