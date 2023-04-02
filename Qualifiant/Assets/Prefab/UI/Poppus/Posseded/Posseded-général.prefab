@@ -8,6 +8,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1004012719677811909, guid: 477d13d2e28f83b48a57f06b85be9e00, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1377716133494073996, guid: 477d13d2e28f83b48a57f06b85be9e00, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -94,11 +98,62 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3044725800506132357, guid: 477d13d2e28f83b48a57f06b85be9e00, type: 3}
       propertyPath: m_text
-      value: gkhjkghjk
+      value: MARIE
+      objectReference: {fileID: 0}
+    - target: {fileID: 3198198492592581987, guid: 477d13d2e28f83b48a57f06b85be9e00, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3198198492592581987, guid: 477d13d2e28f83b48a57f06b85be9e00, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3198198492592581987, guid: 477d13d2e28f83b48a57f06b85be9e00, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 120.535
+      objectReference: {fileID: 0}
+    - target: {fileID: 3962608912097347893, guid: 477d13d2e28f83b48a57f06b85be9e00, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3962608912097347893, guid: 477d13d2e28f83b48a57f06b85be9e00, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4556577691682266005, guid: 477d13d2e28f83b48a57f06b85be9e00, type: 3}
+      propertyPath: m_text
+      value: "Apr\xE8s des ann\xE9es difficiles \xE0 d\xE9fier l\u2019autorit\xE9,
+        Marie abandonne l\u2019\xE9cole pour se consacrer \xE0 sa passion, la photographie
+        animali\xE8re. Aujourd\u2019hui, Marie sillonne les grands espaces, seule,
+        ayant pour seule compagnie son appareil photo."
+      objectReference: {fileID: 0}
+    - target: {fileID: 5228092843152971697, guid: 477d13d2e28f83b48a57f06b85be9e00, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6468719580942274789, guid: 477d13d2e28f83b48a57f06b85be9e00, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7198490355491985535, guid: 477d13d2e28f83b48a57f06b85be9e00, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8983623776356978192, guid: 477d13d2e28f83b48a57f06b85be9e00, type: 3}
       propertyPath: m_Name
-      value: "Poss\xE9d\xE9-g\xE9n\xE9ral"
+      value: "Posseded-g\xE9n\xE9ral"
+      objectReference: {fileID: 0}
+    - target: {fileID: 9217273605994441163, guid: 477d13d2e28f83b48a57f06b85be9e00, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9217273605994441163, guid: 477d13d2e28f83b48a57f06b85be9e00, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9217273605994441163, guid: 477d13d2e28f83b48a57f06b85be9e00, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 87.5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

@@ -18,7 +18,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1377716133494073996, guid: 477d13d2e28f83b48a57f06b85be9e00, type: 3}
       propertyPath: m_RootOrder
-      value: 0
+      value: -1
       objectReference: {fileID: 0}
     - target: {fileID: 1377716133494073996, guid: 477d13d2e28f83b48a57f06b85be9e00, type: 3}
       propertyPath: m_AnchorMax.x
@@ -92,9 +92,24 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3044725800506132357, guid: 477d13d2e28f83b48a57f06b85be9e00, type: 3}
+      propertyPath: m_text
+      value: KARIM
+      objectReference: {fileID: 0}
+    - target: {fileID: 4556577691682266005, guid: 477d13d2e28f83b48a57f06b85be9e00, type: 3}
+      propertyPath: m_text
+      value: " Apr\xE8s quelques ann\xE9es sur les bancs de l\u2019universit\xE9,
+        Elliot devient architecte. Toutefois, isol\xE9 dans son bureau \xE0 dessiner
+        et concevoir des plans abstraits ne r\xE9jouit pas. En outre, l\u2019absence
+        de pratique manuelle lui p\xE8se. "
+      objectReference: {fileID: 0}
+    - target: {fileID: 5228092843152971697, guid: 477d13d2e28f83b48a57f06b85be9e00, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8983623776356978192, guid: 477d13d2e28f83b48a57f06b85be9e00, type: 3}
       propertyPath: m_Name
-      value: PupopBase
+      value: Ksos-tt
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

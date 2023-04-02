@@ -18,7 +18,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1377716133494073996, guid: 477d13d2e28f83b48a57f06b85be9e00, type: 3}
       propertyPath: m_RootOrder
-      value: 0
+      value: -1
       objectReference: {fileID: 0}
     - target: {fileID: 1377716133494073996, guid: 477d13d2e28f83b48a57f06b85be9e00, type: 3}
       propertyPath: m_AnchorMax.x
@@ -92,9 +92,27 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3044725800506132357, guid: 477d13d2e28f83b48a57f06b85be9e00, type: 3}
+      propertyPath: m_text
+      value: KARIM
+      objectReference: {fileID: 0}
+    - target: {fileID: 4556577691682266005, guid: 477d13d2e28f83b48a57f06b85be9e00, type: 3}
+      propertyPath: m_text
+      value: "Apr\xE8s des ann\xE9es de formations professionnalisantes, Elliot devient
+        chef d\u2019entreprise dans la construction. Pour son plus grand bonheur,
+        son entreprise cro\xEEt rapidement, lui donnant un statut socialement valorisant.\r"
+      objectReference: {fileID: 0}
+    - target: {fileID: 5228092843152971697, guid: 477d13d2e28f83b48a57f06b85be9e00, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7198490355491985535, guid: 477d13d2e28f83b48a57f06b85be9e00, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8983623776356978192, guid: 477d13d2e28f83b48a57f06b85be9e00, type: 3}
       propertyPath: m_Name
-      value: PupopBase
+      value: Ksos-professionel
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

@@ -94,11 +94,17 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3044725800506132357, guid: 477d13d2e28f83b48a57f06b85be9e00, type: 3}
       propertyPath: m_text
-      value: gkhjkghjk
+      value: MAMADOU
+      objectReference: {fileID: 0}
+    - target: {fileID: 4556577691682266005, guid: 477d13d2e28f83b48a57f06b85be9e00, type: 3}
+      propertyPath: m_text
+      value: "Apr\xE8s quelques ann\xE9es \xE0 s\u2019essayer \xE0 diverses \xE9tudes
+        sup\xE9rieures, Mamadou finit par d\xE9crocher. Il navigue de job et se cherche
+        perp\xE9tuellement.\r"
       objectReference: {fileID: 0}
     - target: {fileID: 8983623776356978192, guid: 477d13d2e28f83b48a57f06b85be9e00, type: 3}
       propertyPath: m_Name
-      value: "Poss\xE9d\xE9-g\xE9n\xE9ral"
+      value: "Hyperactif-g\xE9n\xE9ral"
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

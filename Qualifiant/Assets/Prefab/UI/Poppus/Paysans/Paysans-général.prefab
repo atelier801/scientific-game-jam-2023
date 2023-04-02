@@ -94,11 +94,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3044725800506132357, guid: 477d13d2e28f83b48a57f06b85be9e00, type: 3}
       propertyPath: m_text
-      value: gkhjkghjk
+      value: "L\xC9A"
+      objectReference: {fileID: 0}
+    - target: {fileID: 4556577691682266005, guid: 477d13d2e28f83b48a57f06b85be9e00, type: 3}
+      propertyPath: m_text
+      value: "A l\u2019issue de son cursus dans l\u2019enseignement g\xE9n\xE9ral,
+        L\xE9a s\u2019inscrit \xE0 l\u2019universit\xE9 pour obtenir un master en
+        science politique. Elle s'installe en centre-ville et trouve une place dans
+        un parti politique. Les gens la respectent. Parfois, L\xE9a r\xEAve de campagnes,
+        de champs et de ch\xE8vres."
+      objectReference: {fileID: 0}
+    - target: {fileID: 5228092843152971697, guid: 477d13d2e28f83b48a57f06b85be9e00, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8983623776356978192, guid: 477d13d2e28f83b48a57f06b85be9e00, type: 3}
       propertyPath: m_Name
-      value: "Poss\xE9d\xE9-g\xE9n\xE9ral"
+      value: "Paysans-g\xE9n\xE9ral"
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

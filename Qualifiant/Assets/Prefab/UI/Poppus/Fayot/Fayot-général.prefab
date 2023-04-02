@@ -94,11 +94,62 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3044725800506132357, guid: 477d13d2e28f83b48a57f06b85be9e00, type: 3}
       propertyPath: m_text
-      value: gkhjkghjk
+      value: LIAM
+      objectReference: {fileID: 0}
+    - target: {fileID: 3198198492592581987, guid: 477d13d2e28f83b48a57f06b85be9e00, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3198198492592581987, guid: 477d13d2e28f83b48a57f06b85be9e00, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3198198492592581987, guid: 477d13d2e28f83b48a57f06b85be9e00, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 175
+      objectReference: {fileID: 0}
+    - target: {fileID: 3962608912097347893, guid: 477d13d2e28f83b48a57f06b85be9e00, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3962608912097347893, guid: 477d13d2e28f83b48a57f06b85be9e00, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4556577691682266005, guid: 477d13d2e28f83b48a57f06b85be9e00, type: 3}
+      propertyPath: m_text
+      value: "Apr\xE8s avoir pers\xE9v\xE9r\xE9 dans l\u2019enseignement g\xE9n\xE9ral
+        malgr\xE9 quelques emb\xFBches, Liam d\xE9cide de ne pas poursuivre dans
+        l\u2019enseignement sup\xE9rieur. Il d\xE9cide de passer des examens pour
+        travailler comme douanier. \r\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 5228092843152971697, guid: 477d13d2e28f83b48a57f06b85be9e00, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6468719580942274789, guid: 477d13d2e28f83b48a57f06b85be9e00, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7198490355491985535, guid: 477d13d2e28f83b48a57f06b85be9e00, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8983623776356978192, guid: 477d13d2e28f83b48a57f06b85be9e00, type: 3}
       propertyPath: m_Name
-      value: "Poss\xE9d\xE9-g\xE9n\xE9ral"
+      value: "Fayot-g\xE9n\xE9ral"
+      objectReference: {fileID: 0}
+    - target: {fileID: 9217273605994441163, guid: 477d13d2e28f83b48a57f06b85be9e00, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9217273605994441163, guid: 477d13d2e28f83b48a57f06b85be9e00, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9217273605994441163, guid: 477d13d2e28f83b48a57f06b85be9e00, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

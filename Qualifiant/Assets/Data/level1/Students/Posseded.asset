@@ -18,6 +18,6 @@ MonoBehaviour:
   - orientation: 1
     feedbackPupop: {fileID: 8961052391745205169, guid: e35e18c636232cc48b26ab6c2aec377a, type: 3}
   - orientation: 2
-    feedbackPupop: {fileID: 8961052391745205169, guid: e35e18c636232cc48b26ab6c2aec377a, type: 3}
+    feedbackPupop: {fileID: 2653506458586286157, guid: 461963dc41e808642934dc16f6cc4ed2, type: 3}
   - orientation: 3
-    feedbackPupop: {fileID: 8961052391745205169, guid: e35e18c636232cc48b26ab6c2aec377a, type: 3}
+    feedbackPupop: {fileID: 2653506458586286157, guid: 461963dc41e808642934dc16f6cc4ed2, type: 3}
