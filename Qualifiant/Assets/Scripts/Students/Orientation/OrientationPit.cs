@@ -41,7 +41,7 @@ namespace Students.Orientation
                 OrientationType.general => "Général",
                 OrientationType.techniqueTransition => "Tech de Transition",
                 OrientationType.techniqueQualifiant => "Tech de Qualification",
-                OrientationType.pro => "Professionnel",
+                OrientationType.pro => "Pro",
                 _ => throw new ArgumentOutOfRangeException()
             };
 

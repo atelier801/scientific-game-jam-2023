@@ -16,6 +16,22 @@ PrefabInstance:
       propertyPath: m_Name
       value: Astrophysicien-perfab
       objectReference: {fileID: 0}
+    - target: {fileID: 752376504124791045, guid: cc0008d212be4a74cb68ce6edb6ccfd0, type: 3}
+      propertyPath: m_Size.x
+      value: 1.162487
+      objectReference: {fileID: 0}
+    - target: {fileID: 752376504124791045, guid: cc0008d212be4a74cb68ce6edb6ccfd0, type: 3}
+      propertyPath: m_Size.y
+      value: 2.2373736
+      objectReference: {fileID: 0}
+    - target: {fileID: 752376504124791045, guid: cc0008d212be4a74cb68ce6edb6ccfd0, type: 3}
+      propertyPath: m_Offset.x
+      value: -0.077335835
+      objectReference: {fileID: 0}
+    - target: {fileID: 752376504124791045, guid: cc0008d212be4a74cb68ce6edb6ccfd0, type: 3}
+      propertyPath: m_Offset.y
+      value: 1.0537006
+      objectReference: {fileID: 0}
     - target: {fileID: 1270317530973425069, guid: cc0008d212be4a74cb68ce6edb6ccfd0, type: 3}
       propertyPath: m_Name
       value: Texture
@@ -26,15 +42,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3629577304208981974, guid: cc0008d212be4a74cb68ce6edb6ccfd0, type: 3}
       propertyPath: m_Size.y
-      value: 1.94
+      value: 2.1816745
       objectReference: {fileID: 0}
     - target: {fileID: 3629577304208981974, guid: cc0008d212be4a74cb68ce6edb6ccfd0, type: 3}
       propertyPath: m_Offset.x
-      value: -0.09
+      value: -0.09000003
       objectReference: {fileID: 0}
     - target: {fileID: 3629577304208981974, guid: cc0008d212be4a74cb68ce6edb6ccfd0, type: 3}
       propertyPath: m_Offset.y
-      value: 0.1
+      value: 0.22083735
       objectReference: {fileID: 0}
     - target: {fileID: 4747160282345624016, guid: cc0008d212be4a74cb68ce6edb6ccfd0, type: 3}
       propertyPath: bulletin
@@ -42,7 +58,7 @@ PrefabInstance:
       objectReference: {fileID: 6928425155241055244, guid: be12ef7cd01802f47b2075cece86931c, type: 3}
     - target: {fileID: 6071678948039274595, guid: cc0008d212be4a74cb68ce6edb6ccfd0, type: 3}
       propertyPath: m_RootOrder
-      value: 5
+      value: -1
       objectReference: {fileID: 0}
     - target: {fileID: 6071678948039274595, guid: cc0008d212be4a74cb68ce6edb6ccfd0, type: 3}
       propertyPath: m_LocalPosition.x
