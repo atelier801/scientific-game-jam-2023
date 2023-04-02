@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 865fadfd241b4714b84f2713b0fafeb2, type: 3}
+  m_Name: Astrophysicien
+  m_EditorClassIdentifier: 
+  narratives:
+  - orientation: 0
+    feedbackPupop: {fileID: 8961052391745205169, guid: b77d7723dac5a094ebc087aec7174fae, type: 3}
+  - orientation: 1
+    feedbackPupop: {fileID: 2653506458586286157, guid: b99ace4b654b76f47a0c84ce71f14b09, type: 3}
+  - orientation: 2
+    feedbackPupop: {fileID: 2653506458586286157, guid: 7e1f25a2f3462a64094a7893406b356f, type: 3}
+  - orientation: 3
+    feedbackPupop: {fileID: 2653506458586286157, guid: cb2b6a6525cd3634d85d10677d55d1ce, type: 3}

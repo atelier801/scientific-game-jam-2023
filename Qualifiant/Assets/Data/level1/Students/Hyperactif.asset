@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 865fadfd241b4714b84f2713b0fafeb2, type: 3}
+  m_Name: Hyperactif
+  m_EditorClassIdentifier: 
+  narratives:
+  - orientation: 0
+    feedbackPupop: {fileID: 8961052391745205169, guid: 0425bc54ed018524f946977ecbdbc3cc, type: 3}
+  - orientation: 1
+    feedbackPupop: {fileID: 2653506458586286157, guid: d134aee899b18f74c8e7d995d92a7a2d, type: 3}
+  - orientation: 2
+    feedbackPupop: {fileID: 2653506458586286157, guid: 689acd6ba29ed14428129532b782ecac, type: 3}
+  - orientation: 3
+    feedbackPupop: {fileID: 2653506458586286157, guid: f912f636e53661a468664c675e922258, type: 3}

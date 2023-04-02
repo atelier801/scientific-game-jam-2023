@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 865fadfd241b4714b84f2713b0fafeb2, type: 3}
+  m_Name: Paysans
+  m_EditorClassIdentifier: 
+  narratives:
+  - orientation: 0
+    feedbackPupop: {fileID: 8961052391745205169, guid: 081b1c99122a42449ad0e78ae7ef82ff, type: 3}
+  - orientation: 1
+    feedbackPupop: {fileID: 2653506458586286157, guid: 99ca509266d3b784296016fde7e4e46f, type: 3}
+  - orientation: 2
+    feedbackPupop: {fileID: 2653506458586286157, guid: 584b1dc95f3691b48a4f7ac34114fa42, type: 3}
+  - orientation: 3
+    feedbackPupop: {fileID: 2653506458586286157, guid: 16914126d6b146d49811a3db560dece5, type: 3}
