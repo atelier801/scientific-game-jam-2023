@@ -86,5 +86,20 @@ namespace Students
 
             _isMoving = true;
         }
+
+        public void CheckIfInClassRoom()
+        {
+            if (!ClassRoom.Singleton.isInsideBoundaries(target.position))
+            {
+                RestrainInClassRoom();
+            }
+        }
+        
+        public void RestrainInClassRoom()
+        {
+            Vector3 newPos = ClassRoom.Singleton.GetRandomPointInBoundaries();
+            newPos.z = target.position.z;
+            target.position = newPos;
+        }
     }
 }

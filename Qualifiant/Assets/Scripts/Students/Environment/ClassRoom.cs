@@ -1,5 +1,6 @@
 ﻿using System;
 using UnityEngine;
+using Random = UnityEngine.Random;
 
 namespace Students.Environment
 {
@@ -34,6 +35,17 @@ namespace Students.Environment
                 point.x < pos.x + boundaries.x / 2 &&
                 point.y > pos.y - boundaries.y / 2 &&
                 point.y < pos.y + boundaries.y / 2;
+        }
+
+        public Vector2 GetRandomPointInBoundaries()
+        {
+            Vector3 pos = transform.position;
+            
+            return new Vector2
+            {
+                x = Random.Range(pos.x - boundaries.x / 2, pos.x + boundaries.x / 2),
+                y = Random.Range(pos.y - boundaries.y / 2, pos.y + boundaries.y / 2)
+            };
         }
     }
 }
