@@ -179,12 +179,16 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8594599061969249498, guid: cc0008d212be4a74cb68ce6edb6ccfd0, type: 3}
       propertyPath: _onMouseDown.m_PersistentCalls.m_Calls.Array.size
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8594599061969249498, guid: cc0008d212be4a74cb68ce6edb6ccfd0, type: 3}
       propertyPath: _onMouseDown.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 8594599061969249498, guid: cc0008d212be4a74cb68ce6edb6ccfd0, type: 3}
+      propertyPath: _onMouseUp.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 7104802163096031936}
     - target: {fileID: 8594599061969249498, guid: cc0008d212be4a74cb68ce6edb6ccfd0, type: 3}
       propertyPath: _onMouseDown.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
