@@ -1,7 +1,8 @@
 ﻿    using System;
 using Students.Data;
 using Students.Orientation;
-using UnityEngine;
+    using UI;
+    using UnityEngine;
 
 namespace Students
 {
@@ -9,8 +10,11 @@ namespace Students
     {
         public StudentData data;
 
+       
+        
         public void Assign(OrientationType orientation)
         {
+            Pupop.Singleton.SpawnPupop(data.GetFeedbackPupop(orientation));
             Destroy(gameObject);
         }
     }
