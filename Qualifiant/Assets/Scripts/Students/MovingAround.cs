@@ -91,15 +91,20 @@ namespace Students
         {
             if (!ClassRoom.Singleton.isInsideBoundaries(target.position))
             {
-                RestrainInClassRoom();
+                StartCoroutine(RestrainInClassRoom());
             }
         }
         
-        public void RestrainInClassRoom()
+        public IEnumerator RestrainInClassRoom()
         {
+            yield return new WaitForFixedUpdate();
+        
+            
             Vector3 newPos = ClassRoom.Singleton.GetRandomPointInBoundaries();
             newPos.z = target.position.z;
             target.position = newPos;
+            
+            ResetTargetPosition();
         }
     }
 }
