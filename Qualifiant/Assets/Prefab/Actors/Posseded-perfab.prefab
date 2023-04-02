@@ -95,7 +95,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 624895384882704591, guid: cc0008d212be4a74cb68ce6edb6ccfd0, type: 3}
       propertyPath: m_Name
-      value: "Poss\xE9d\xE9-perfab"
+      value: Posseded-perfab
+      objectReference: {fileID: 0}
+    - target: {fileID: 752376504124791045, guid: cc0008d212be4a74cb68ce6edb6ccfd0, type: 3}
+      propertyPath: m_Size.x
+      value: 0.92381716
+      objectReference: {fileID: 0}
+    - target: {fileID: 752376504124791045, guid: cc0008d212be4a74cb68ce6edb6ccfd0, type: 3}
+      propertyPath: m_Offset.x
+      value: -0.05166602
       objectReference: {fileID: 0}
     - target: {fileID: 1270317530973425069, guid: cc0008d212be4a74cb68ce6edb6ccfd0, type: 3}
       propertyPath: m_Name
@@ -107,7 +115,7 @@ PrefabInstance:
       objectReference: {fileID: 6928425155241055244, guid: be12ef7cd01802f47b2075cece86931c, type: 3}
     - target: {fileID: 6071678948039274595, guid: cc0008d212be4a74cb68ce6edb6ccfd0, type: 3}
       propertyPath: m_RootOrder
-      value: 0
+      value: -1
       objectReference: {fileID: 0}
     - target: {fileID: 6071678948039274595, guid: cc0008d212be4a74cb68ce6edb6ccfd0, type: 3}
       propertyPath: m_LocalPosition.x
@@ -242,8 +250,8 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0.2}
-  m_Size: {x: 1.32, y: 2.57}
+  m_Offset: {x: -0.021527529, y: 0.25556672}
+  m_Size: {x: 1.0022998, y: 2.0955842}
   m_Direction: 0
 --- !u!4 &8767714243614910153 stripped
 Transform:

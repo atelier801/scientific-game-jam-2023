@@ -9,6 +9,8 @@ namespace Students
 {
     public class MovingAround : MonoBehaviour
     {
+        [SerializeField] private bool debug;
+        
         public Transform target;
         
         [SerializeField] private bool _isMoving = true;
@@ -30,6 +32,8 @@ namespace Students
         
         private void OnDrawGizmos()
         {
+            if(!debug) return;
+            
             Gizmos.color = Color.magenta;
             Gizmos.DrawWireSphere(target.position, range);
             Gizmos.DrawLine(originPosition, targetPosition);
