@@ -10,7 +10,7 @@ namespace Interactions
 
         public bool isHovered { get; private set; }
 
-        [SerializeField] private bool _isHoverable;
+        [SerializeField] private bool _isHoverable = true;
         [Space]
         [SerializeField] private UnityEvent _onHoverEnter;
         [SerializeField] private UnityEvent _onHoverExit;

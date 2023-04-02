@@ -1,5 +1,6 @@
-﻿using System;
+﻿    using System;
 using Students.Data;
+using Students.Orientation;
 using UnityEngine;
 
 namespace Students
@@ -8,14 +9,9 @@ namespace Students
     {
         public StudentData data;
 
-        private void Update()
+        public void Assign(OrientationType orientation)
         {
-            
-        }
-
-        private void MoveAround()
-        {
-            
+            Destroy(gameObject);
         }
     }
 }
